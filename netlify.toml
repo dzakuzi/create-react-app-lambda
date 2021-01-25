@@ -6,12 +6,12 @@
   # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "https://app.fitgib.si/*"
+  from = "/*"
   to = "/index.html"
   status = 200
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "https://app.fitgib.si/*"
+  for = "/*"
     [headers.values]
-    Access-Control-Allow-Origin = "https://app.fitgib.si/*"
+    Access-Control-Allow-Origin = "/*"
